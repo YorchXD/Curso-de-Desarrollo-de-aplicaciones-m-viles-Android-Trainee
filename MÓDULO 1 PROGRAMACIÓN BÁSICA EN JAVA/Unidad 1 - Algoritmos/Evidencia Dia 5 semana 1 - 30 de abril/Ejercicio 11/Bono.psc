@@ -19,11 +19,11 @@ Algoritmo bono_clase_media
 		diferencia <- promAñoAnt-promAñoAct
 		disminucion <- (diferencia/promAñoAnt)*100
 		Si disminucion>=20 Entonces
-			Escribir 'Eres acreedor de un bono por $500.00'
+			Escribir 'Eres acreedor de un bono por $500.000'
 		SiNo
-			Escribir 'No es acreedor de un bono por $500.00'
+			Escribir 'No es acreedor de un bono por $500.000'
 		FinSi
 	SiNo
-		Escribir 'No es acreedor de un bono por $500.00'
+		Escribir 'No es acreedor de un bono por $500.000'
 	FinSi
 FinAlgoritmo
