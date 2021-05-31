@@ -1,0 +1,105 @@
+package model;
+
+import java.util.ArrayList;
+
+public class Alumno
+{
+	private String nombre;
+	private String run;
+	private String edad;
+	private Apoderado apoderado;
+	private String estado;
+	private Curso_Referencia curso;
+	private ArrayList<Asistencia> asistencias;
+	
+	public Alumno(String nombre, String run, String edad, Apoderado apoderado, String estado, Curso_Referencia curso)
+	{
+		this.nombre = nombre;
+		this.run = run;
+		this.edad = edad;
+		this.apoderado = apoderado;
+		this.estado = estado;
+		this.curso = curso;
+		this.asistencias = new ArrayList<Asistencia>();
+	}
+
+	public String getNombre()
+	{
+		return nombre;
+	}
+
+	public void setNombre(String nombre)
+	{
+		this.nombre = nombre;
+	}
+
+	public String getRun()
+	{
+		return run;
+	}
+
+	public void setRun(String run)
+	{
+		this.run = run;
+	}
+
+	public String getEdad()
+	{
+		return edad;
+	}
+
+	public void setEdad(String edad)
+	{
+		this.edad = edad;
+	}
+
+	public Apoderado getApoderado()
+	{
+		return apoderado;
+	}
+
+	public void setApoderado(Apoderado apoderado)
+	{
+		this.apoderado = apoderado;
+	}
+
+	public String getEstado()
+	{
+		return estado;
+	}
+
+	public void setEstado(String estado)
+	{
+		this.estado = estado;
+	}
+
+	public Curso_Referencia getCurso()
+	{
+		return curso;
+	}
+
+	public void setCurso(Curso_Referencia curso)
+	{
+		this.curso = curso;
+	}
+
+	public Asistencia getAsistencia(int index)
+	{
+		return asistencias.get(index);
+	}
+
+	public boolean addAsistencia(Asistencia e)
+	{
+		return asistencias.add(e);
+	}
+
+	public Asistencia removeAsistencia(int index)
+	{
+		return asistencias.remove(index);
+	}
+
+	public ArrayList<Asistencia> getAsistencias()
+	{
+		return asistencias;
+	}
+}
