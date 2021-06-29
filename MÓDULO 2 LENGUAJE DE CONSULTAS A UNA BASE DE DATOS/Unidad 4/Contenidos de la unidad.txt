@@ -1,0 +1,2 @@
+Sentencias para la definición de tablas
+Creando un modelo de datos con integridad referencial

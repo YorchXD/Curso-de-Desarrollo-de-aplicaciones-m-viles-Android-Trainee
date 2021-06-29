@@ -1,0 +1,4 @@
+Sentencias para la manipulación de datos
+Transaccionalidad de operaciones
+Consultando información de una tabla
+Consultando información relacionada en varias tablas
